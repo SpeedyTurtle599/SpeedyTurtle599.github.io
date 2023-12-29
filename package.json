@@ -1,0 +1,29 @@
+{
+  "name": "mecpllc_website",
+  "version": "1.0.0",
+  "description": "A website for the law office of Matthew E. Coveler, PLLC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "http-server -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpeedyTurtle599/mecpllcSite.git"
+  },
+  "keywords": [
+    "law"
+  ],
+  "author": "Benjamin G. Coveler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpeedyTurtle599/mecpllcSite/issues"
+  },
+  "homepage": "https://github.com/SpeedyTurtle599/mecpllcSite#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "http": "^0.0.1-security",
+    "http-server": "^14.1.1",
+    "mapbox-gl": "^3.0.1"
+  }
+}
